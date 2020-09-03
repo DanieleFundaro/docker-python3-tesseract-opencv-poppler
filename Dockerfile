@@ -7,7 +7,7 @@ RUN apt-get update \
     libswscale-dev libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libavformat-dev libpq-dev libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install numpy scipy pillow mat
+RUN pip install numpy scipy pillow
 
 # install opencv
 WORKDIR /
