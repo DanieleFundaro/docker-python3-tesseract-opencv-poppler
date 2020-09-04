@@ -1,4 +1,4 @@
-### docker-python3-tesseract-opencv-poppler
+## docker-python3-tesseract-opencv-poppler
 
 [![Docker Automated build](https://img.shields.io/docker/automated/jjanzic/docker-python3-opencv.svg)](https://hub.docker.com/r/fundanie/docker-python3-tesseract-opencv-poppler)
 
