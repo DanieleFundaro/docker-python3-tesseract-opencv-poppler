@@ -47,6 +47,7 @@ RUN apt-get update && apt-get install -y g++ autoconf automake libtool \
 # install tesseract
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libtesseract-dev libleptonica-dev tesseract-ocr tesseract-ocr-all
+RUN pip install pytesseract
 
 # install poppler
 RUN apt-get update && apt-get install -y poppler-utils
