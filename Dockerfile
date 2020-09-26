@@ -1,5 +1,4 @@
-FROM python:3.7
-MAINTAINER Daniele Fundarò <daniele.fundaro@gmail.com>
+FROM ubuntu:18.04
 
 # General
 RUN apt-get update \
