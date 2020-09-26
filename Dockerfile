@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM python:3.7
 
 # General
 RUN apt-get update \
@@ -34,7 +34,7 @@ RUN wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
   .. \
 && make install \
 && rm /${OPENCV_VERSION}.zip \
-&& rm -r /opencv-${OPENCV_VERSION}
+&& rm -r /opncv-${OPENCV_VERSION}
 RUN ln -s \
     /usr/local/python/cv2/python-3.7/cv2.cpython-37m-x86_64-linux-gnu.so \
     /usr/local/lib/python3.7/site-packages/cv2.so
